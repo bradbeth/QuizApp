@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="@string/Q1"/>
+
+        <CheckBox
+            android:id="@+id/Q1C1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Fiesta and Alamo"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q1C2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Rose and Orange"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q1C3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Independence and Sugar"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q1C4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Toilet and Mixing"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="@string/Q2"/>
+
+        <CheckBox
+            android:id="@+id/Q2C1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Scored three touchdowns"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q2C2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Gained 200 yards rushing"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q2C3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Made three interceptions"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q2C4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Scored on a punt return"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="@string/Q3"/>
+
+        <CheckBox
+            android:id="@+id/Q3C1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Texas"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q3C2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Iowa"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q3C3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Colorado"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q3C4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Kansas"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="@string/Q4"/>
+
+        <CheckBox
+            android:id="@+id/Q4C1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Sam Keller"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q4C2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Zac Taylor"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q4C3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Patrick Witt"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q4C4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Eric Crouch"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="@string/Q5"/>
+
+        <CheckBox
+            android:id="@+id/Q5C1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="21"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q5C2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="None"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q5C3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="17"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/Q5C4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="12"
+            android:textSize="16sp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_marginTop="16dp"
+            android:text="Submit"
+            android:onClick="submitResults"/>
+
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:text="Score"/>
+
+    </LinearLayout>
+
+</ScrollView>
